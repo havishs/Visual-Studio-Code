@@ -1,0 +1,107 @@
+body {
+  background-color: lightblue;
+  font-size: large;
+  font-weight: 500;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+    line-height: 1.3465473em;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+a:hover {
+    color: aquamarine;
+}
+
+
+a:active {
+    color:cornflowerblue
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.button {
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    border:none;
+
+}
+
+.button:hover {
+    background-color: azure;
+    color:black
+}
+
+.box-1{
+    background-color: gray;
+    color: black;
+    border: 5px red solid;
+    border-style: solid;
+
+    padding: 20px;
+
+    margin-top: 20px;
+}
+
+.box-1 h1{
+    word-spacing: 1em;
+    text-decoration: wavy;
+    letter-spacing: 0.2em;
+   font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.box-2 {
+    border: 3px;
+    background-color: blanchedalmond;
+    color: black;
+    padding: 20px;
+
+}
+
+.categories {
+    border: 1px grey solid;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.categories h2{
+    text-align: center;
+}
+
+.categories ul {
+    padding:0em
+}
+
+.categories li {
+    padding-bottom: 6px;
+    border-bottom: dotted 1px #333;
+    list-style-image: -moz-repeating-radial-gradient(12);
+}
+
+.my-form {
+    padding: 20px;
+}
+
+.my-form .form-group {
+    padding-bottom: 15px;
+}
+
+.my-form label{
+    display: block;
+}
+
+.my-form input[type=email] {
+    padding: 8px;
+    width: 100%;
+}
+
